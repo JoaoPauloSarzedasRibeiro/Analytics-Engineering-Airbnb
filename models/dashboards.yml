@@ -1,0 +1,19 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://f78ad640.us2a.app.preset.io/superset/dashboard/p/P85GqOrDV6l/
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+
+    depends_on:
+      - ref('dim_hosts_cleansed')
+      - red('dim_listings_cleansed')
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Joao Ribeiro
+      email: sarzedas.joaopaulo@gmail.com
