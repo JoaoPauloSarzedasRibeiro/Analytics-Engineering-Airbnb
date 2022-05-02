@@ -6,13 +6,13 @@ This use case presents a project to simulate an Analytics Engineering solution f
 
 **Tech Stack:**
 <p align="left">
- <img src="assets/dbt-logo.png" alt="dbt - Data Build Tool"/>
+ <img src="assets/dbt-logo.png" alt="dbt - Data Build Tool" width=30%/>
 </p>
 <p align="left">
- <img src="assets/snowflake-logo.png" alt="SnowFlake Data Warehouse"/>
+ <img src="assets/snowflake-logo.png" alt="SnowFlake Data Warehouse" width=30%/>
 </p>
 <p align="left">
- <img src="assets/preset-logo.png" alt="Preset - Superset"/>
+ <img src="assets/preset-logo.png" alt="Preset - Superset" width=30%/>
 </p>
 
 **Input Data Model**
